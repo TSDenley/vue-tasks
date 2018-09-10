@@ -19,3 +19,29 @@ npm run build
 ```
 npm run lint
 ```
+
+## SSR
+
+### Start a development server with HMR
+
+```bash
+npm run ssr:serve
+```
+
+### Build for production
+
+```bash
+npm run ssr:build
+```
+
+### Start in production mode (need a `npm run ssr:build` before)
+
+```bash
+npm run ssr:start
+```
+
+### Generate static website
+
+```bash
+npm run generate
+```
